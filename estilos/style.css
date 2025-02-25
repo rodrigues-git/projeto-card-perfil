@@ -24,17 +24,17 @@ body{
 
 main{
     display: flex;
-    width: 90vw;
-    height: 90vh;
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
 #card{
     background-color: rgba(255, 255, 255, 0.616);
-    width: 90dvw;
+    width: 90vw;
     max-width: 400px;
-    height: 100dvh;
+    height: 90vh;
     max-height: 500px;
     border-radius: 20px;
     display: flex;
