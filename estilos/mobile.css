@@ -43,8 +43,7 @@ main{
 }
 
 #card:hover{
-    width: 450px;
-    height: 600px;
+    transform: scale(1.05);
 }
 
 #capa{
@@ -62,8 +61,7 @@ main{
 }
 
 #foto-perfil:hover{
-    height: 200px;
-    width: 200px;
+    transform: scale(1.05);
 }
 
 h1{
@@ -96,8 +94,7 @@ p{
 }
 
 .icone:hover{
-    height: 72px;
-    width: 72px;
+    transform: scale(1.50);
 }
 
 
