@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+    --marrom: #b68d40;
+    --creme: #f4ebd0;
+    --preto: #122620;
+    --dourado: #d6ad60;
+
+    --font-padrao: 'oswald', serif; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-padrao);
+    font-weight: normal;
+}
+
+body{
+    background: linear-gradient(to bottom, var(--dourado) 30%, var(--creme));
+}
+
+main{
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    background-color: rgba(255, 255, 255, 0.616);
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: hidden;
+    transition: .3s;
+}
+
+#card:hover{
+    width: 450px;
+    height: 600px;
+}
+
+#capa{
+    width: 100%;
+}
+
+#foto-perfil{
+    align-self: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -80px;
+    border: 5px solid var(--dourado);
+    transition: 0.3s;
+}
+
+#foto-perfil:hover{
+    height: 200px;
+    width: 200px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    align-self: center;
+}
+
+p{
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    width: 100%;
+    align-self: center;
+}
+
+#icones{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icone{
+    height: 48px;
+    width: 48px;
+    transition: 0.3s;
+}
+
+.icone:hover{
+    height: 72px;
+    width: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
