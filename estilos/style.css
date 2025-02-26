@@ -24,20 +24,19 @@ body{
 
 main{
     display: flex;
-    width: 100dvw;
-    height: 100dvh;
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
 #card{
     background-color: rgba(255, 255, 255, 0.616);
-    width: 90vw;
-    height: 90vh;
     max-width: 350px;
     max-height: 470px;
-    border-radius: 20px;
+    width: 90vw;
 
+    border-radius: 20px;
     display: flex;
     flex-flow: column nowrap;
     overflow: hidden;
