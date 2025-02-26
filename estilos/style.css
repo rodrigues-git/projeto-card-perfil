@@ -11,6 +11,11 @@
     --font-padrao: 'oswald', serif; 
 }
 
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -20,22 +25,19 @@
 
 body{
     background: linear-gradient(to bottom, var(--dourado) 30%, var(--creme));
-}
-
-main{
+    background-attachment: fixed;
+    min-height: 100vh;
     display: flex;
-    width: 100vw;
-    height: 100vh;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
+
 
 #card{
     background-color: rgba(255, 255, 255, 0.616);
     max-width: 350px;
-    max-height: 470px;
-    width: 90vw;
-
+    height: 480px;
     border-radius: 20px;
     display: flex;
     flex-flow: column nowrap;
