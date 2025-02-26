@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
-body{
-        background: none;
-        background-color: #d6ad608c;
+@media screen and (max-width: 768px){
+
+        body{
+                background: none;
+                background-color: #d6ad6081;
+        }
+        
 }
 
